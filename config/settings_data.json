@@ -10,6 +10,7 @@
 {
   "current": {
     "logo": "shopify://shop_images/Microtech_logo_1.1.png",
+    "logo_inverse": "shopify://shop_images/Microtech_logo_1.1.png",
     "type_body_font": "inter_n4",
     "type_subheading_font": "inter_n5",
     "type_heading_font": "inter_n7",
@@ -26,7 +27,7 @@
     "type_letter_spacing_h2": "heading-normal",
     "type_case_h2": "none",
     "type_font_h3": "heading",
-    "type_size_h3": "24",
+    "type_size_h3": "40",
     "type_line_height_h3": "display-tight",
     "type_letter_spacing_h3": "heading-normal",
     "type_case_h3": "none",
