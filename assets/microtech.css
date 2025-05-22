@@ -22,7 +22,19 @@ font-family: 'Klavika Light';
            
           
           }
+          
+          
+        p {
+            font-family: 'Klavika Regular' !important ;
+        }
 
+        h6 {
+            font-family: 'Klavika Regular' !important ;
+        }
+
+        h3 {
+            font-family: 'klavika-medium' !important ;
+        }
 
 
 
@@ -36,17 +48,6 @@ font-family: 'Klavika Light';
         }
 
       
-        p {
-            font-family: 'Klavika Regular' !important ;
-        }
-
-        h6 {
-            font-family: 'Klavika Regular' !important ;
-        }
-
-        h3 {
-            font-family: 'Klavika Regular' !important ;
-        }
 
         .image {
     width: 100%;
