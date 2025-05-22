@@ -666,7 +666,7 @@
           "name": "t:names.collection_card",
           "static": true,
           "settings": {
-            "collection": "otf",
+            "collection": "{{ closest.collection }}",
             "placement": "on_image",
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "flex-end",
@@ -683,7 +683,7 @@
               "type": "collection-title",
               "name": "t:names.collection_title",
               "settings": {
-                "collection": "{{ closest.collection }}",
+                "collection": "fixed-blades",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -710,8 +710,8 @@
               "name": "t:names.collection_card_image",
               "static": true,
               "settings": {
-                "collection": "otf",
-                "image_ratio": "portrait",
+                "collection": "fixed-blades",
+                "image_ratio": "square",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
@@ -734,7 +734,11 @@
       ],
       "name": "t:names.collections_bento",
       "settings": {
-        "collection_list": [],
+        "collection_list": [
+          "fixed-blades",
+          "folding-knives",
+          "otf"
+        ],
         "layout_type": "bento",
         "carousel_on_mobile": false,
         "columns": 4,
