@@ -85,6 +85,7 @@
         "text_iXYWz6",
         "button_jB9Mz8"
       ],
+      "disabled": true,
       "name": "t:names.hero",
       "settings": {
         "link": "",
@@ -105,7 +106,7 @@
         "section_height_custom": 90,
         "color_scheme": "scheme-1",
         "toggle_overlay": true,
-        "overlay_color": "#00000000",
+        "overlay_color": "rgba(0,0,0,0)",
         "overlay_style": "gradient",
         "gradient_direction": "to bottom",
         "blurred_reflection": false,
