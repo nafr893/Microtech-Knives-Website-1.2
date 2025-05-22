@@ -56,3 +56,9 @@ font-family: 'Klavika Light';
         
 
         }
+
+
+        /* search modal */
+        button.button-primary.predictive-search__search-button {
+            display: none; 
+        }
