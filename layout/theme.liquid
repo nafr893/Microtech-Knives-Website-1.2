@@ -4,8 +4,9 @@
   lang="{{ request.locale.iso_code }}"
 >
   <head>
-    {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'microtech.css' | asset_url | stylesheet_tag }}
+    {{ 'base.css' | asset_url | stylesheet_tag }}
+    
 
     {%- if settings.favicon != blank -%}
       <link
