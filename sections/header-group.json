@@ -17,8 +17,8 @@
         "announcement_eQRJBJ": {
           "type": "_announcement",
           "settings": {
-            "text": "Shop our latest arrivals!",
-            "link": "",
+            "text": "New Arrival - Scarab II Gen III",
+            "link": "shopify://products/scarab",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "weight": "",
@@ -35,10 +35,24 @@
       "settings": {
         "speed": 5,
         "section_width": "page-width",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "divider_width": 0,
         "padding-block-start": 15,
         "padding-block-end": 15
+      }
+    },
+    "divider_XR7GpF": {
+      "type": "divider",
+      "name": "t:names.divider_section",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "section_width": "full-width",
+        "thickness": 1,
+        "corner_radius": "square",
+        "width_percent": 100,
+        "alignment_horizontal": "center",
+        "padding-block-start": 0,
+        "padding-block-end": 0
       }
     },
     "header_section": {
@@ -119,6 +133,7 @@
   },
   "order": [
     "header_announcements_zJhKtT",
+    "divider_XR7GpF",
     "header_section"
   ]
 }
