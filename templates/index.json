@@ -388,7 +388,7 @@
             "horizontal_alignment_flex_direction_column": "flex-end",
             "vertical_alignment_flex_direction_column": "center",
             "gap": 12,
-            "width": "custom",
+            "width": "fit-content",
             "custom_width": 50,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
@@ -563,7 +563,7 @@
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
+        "horizontal_alignment": "space-between",
         "vertical_alignment": "center",
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
