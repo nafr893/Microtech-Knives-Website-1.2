@@ -43,3 +43,7 @@ font-family: 'Klavika Light';
         h6 {
             font-family: 'Klavika Regular' !important ;
         }
+
+        .image {
+    width: 100%;
+}
