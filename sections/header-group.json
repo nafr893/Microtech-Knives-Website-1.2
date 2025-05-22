@@ -45,7 +45,7 @@
       "type": "divider",
       "name": "t:names.divider_section",
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-2",
         "section_width": "full-width",
         "thickness": 1,
         "corner_radius": "square",
