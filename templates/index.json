@@ -588,10 +588,10 @@
         "padding-block-end": 0
       }
     },
-    "collection_list_f7THYN": {
+    "collection_list_aJJW7j": {
       "type": "collection-list",
       "blocks": {
-        "group_yqhTnP": {
+        "group_Lag7qb": {
           "type": "group",
           "name": "t:names.header",
           "settings": {
@@ -630,7 +630,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_tRkfcq": {
+            "text_FeBxX4": {
               "type": "text",
               "name": "t:names.text",
               "settings": {
@@ -658,7 +658,7 @@
             }
           },
           "block_order": [
-            "text_tRkfcq"
+            "text_FeBxX4"
           ]
         },
         "static-collection-card": {
@@ -679,11 +679,26 @@
             "border_radius": 0
           },
           "blocks": {
-            "collection_title_EaJz3L": {
+            "button_4wbJXG": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Shop now",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "custom_width": 77,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
+            "collection_title_b7PhFA": {
               "type": "collection-title",
               "name": "t:names.collection_title",
               "settings": {
-                "collection": "fixed-blades",
+                "collection": "{{ closest.collection }}",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -695,7 +710,7 @@
                 "case": "none",
                 "wrap": "pretty",
                 "color": "var(--color-foreground)",
-                "background": true,
+                "background": false,
                 "background_color": "#ffffff",
                 "corner_radius": 0,
                 "padding-block-start": 4,
@@ -710,8 +725,8 @@
               "name": "t:names.collection_card_image",
               "static": true,
               "settings": {
-                "collection": "fixed-blades",
-                "image_ratio": "square",
+                "collection": "{{ closest.collection }}",
+                "image_ratio": "portrait",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
@@ -725,12 +740,13 @@
             }
           },
           "block_order": [
-            "collection_title_EaJz3L"
+            "button_4wbJXG",
+            "collection_title_b7PhFA"
           ]
         }
       },
       "block_order": [
-        "group_yqhTnP"
+        "group_Lag7qb"
       ],
       "name": "t:names.collections_bento",
       "settings": {
@@ -761,6 +777,6 @@
     "hero_jVaWmY",
     "product_list_qU3bEB",
     "section_y8mUWh",
-    "collection_list_f7THYN"
+    "collection_list_aJJW7j"
   ]
 }
