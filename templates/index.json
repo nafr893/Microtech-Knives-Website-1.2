@@ -38,29 +38,13 @@
           },
           "blocks": {}
         },
-        "button_jB9Mz8": {
-          "type": "button",
-          "name": "t:names.button",
-          "settings": {
-            "label": "Shop now",
-            "link": "shopify://collections/all",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "custom",
-            "custom_width": 50,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
-          },
-          "blocks": {}
-        },
         "text_iXYWz6": {
           "type": "text",
           "name": "t:names.text",
-          "disabled": true,
           "settings": {
-            "text": "<p>With a focus on quality and design, we curate products that enhance your everyday.</p>",
-            "width": "fit-content",
-            "max_width": "narrow",
+            "text": "<p>The iconic Microtech OTF has been redefined with cutting-edge tech.</p>",
+            "width": "100%",
+            "max_width": "none",
             "alignment": "left",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
@@ -79,12 +63,27 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "button_jB9Mz8": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "Shop now",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "text_idXHkj",
-        "button_jB9Mz8",
-        "text_iXYWz6"
+        "text_iXYWz6",
+        "button_jB9Mz8"
       ],
       "name": "t:names.hero",
       "settings": {
