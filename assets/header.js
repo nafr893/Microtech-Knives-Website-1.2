@@ -154,9 +154,9 @@ class HeaderComponent extends Component {
       this.removeAttribute('data-animating');
 
       if (this.getBoundingClientRect().top >= 0) {
-        // reset sticky state when header is scrolled up to natural position
+        // reset sticky state when header is scrolled up to natural position changed first setting from inactive to active
         this.#offscreen = false;
-        this.dataset.stickyState = 'inactive';
+        this.dataset.stickyState = 'active';
         this.dataset.scrollDirection = 'none';
       } else {
         // show sticky header when scrolling up
