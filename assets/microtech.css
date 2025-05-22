@@ -14,5 +14,5 @@ font-family: 'Klavika Light';
           src: url(https://cdn.shopify.com/s/files/1/0748/2585/9321/files/klavika-bold_98a9c00c-3770-4beb-b63c-8cecafe7ece9.woff2?v=1747935993) format('woff2');
 
           h2 {
-            font-family: 'Klavika Medium';
+            font-family: 'Klavika Medium' !important;
           }
