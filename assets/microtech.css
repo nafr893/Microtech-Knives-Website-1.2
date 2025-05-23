@@ -73,5 +73,5 @@ padding-bottom: 10px;
    }
 
   div.collection-card__content {
-    padding: 1.5rem; 
+    padding: 1.5rem !important; 
   }
