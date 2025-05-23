@@ -89,11 +89,10 @@ display: none;
         justify-content: end;
       }
 
-      div.hero__content-wrapper.layout-panel-flex.layout-panel-flex--column.mobile-column.section-content-wrapper.page-width
-        {
+      
             a.size-style.button {
                 padding-top: 10px;
                 padding-bottom: 10px; 
-            }
-        }
+         }
+        
     }
