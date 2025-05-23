@@ -33,7 +33,7 @@ font-family: 'Klavika Light';
         }
 
         h3 {
-            font-family: 'Klavika Bold' !important ;
+            font-family: 'klavika-medium' !important ;
         }
 
 
@@ -70,4 +70,11 @@ font-family: 'Klavika Light';
    {
 padding-top: 10px; 
 padding-bottom: 10px; 
+   }
+
+   div.collection-card__content {
+    h3 {
+        font-weight: bold;
+        font-family: 'klavika-medium' !important; 
+    }
    }
