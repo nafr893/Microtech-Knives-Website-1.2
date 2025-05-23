@@ -509,7 +509,6 @@
       "block_order": [
         "spacer_MRLLgg"
       ],
-      "disabled": true,
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "column",
@@ -585,7 +584,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/knife_fineder_png.webp",
+                "image": "shopify://shop_images/knife_finder_png.webp",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fit-content",
@@ -740,7 +739,57 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-6",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 5,
+        "padding-block-end": 10
+      }
+    },
+    "section_gNTgR6": {
+      "type": "section",
+      "blocks": {
+        "spacer_E7pzfW": {
+          "type": "spacer",
+          "name": "t:names.spacer",
+          "settings": {
+            "size": "percent",
+            "percent_size": 50,
+            "pixel_size": 120,
+            "custom_mobile_size": false,
+            "size_mobile": "percent",
+            "percent_size_mobile": 100,
+            "pixel_size_mobile": 120
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "spacer_E7pzfW"
+      ],
+      "name": "t:names.custom_section",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "custom",
+        "section_height_custom": 10,
+        "color_scheme": "scheme-2",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -753,7 +802,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 0,
-        "padding-block-end": 30
+        "padding-block-end": 0
       }
     },
     "collection_list_aJJW7j": {
@@ -1279,6 +1328,7 @@
     "hero_jjgqYF",
     "section_bLxKXf",
     "section_y8mUWh",
+    "section_gNTgR6",
     "collection_list_aJJW7j",
     "section_ViUT7c",
     "hero_L8tkXE"
