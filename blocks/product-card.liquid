@@ -1,3 +1,5 @@
+
+
 {% liquid
   assign product = block.settings.product
 -%}
@@ -197,22 +199,16 @@
                 "type_preset": "h5"
               }
             },
+                        
+
             "price": {
               "type": "price",
               "settings": {
                 "product": "{{ closest.product }}"
               }
-            },
-            "button": {
-              "type": "button",
-              "settings": {
-                "label": "Shop Now",
-                "link": "{{ closest.product.url }}",
-                "style_class": "button"
-              }
             }
           },
-          "block_order": ["product_title", "price", "button"]
+          "block_order": ["product_title", "price"]
         }
       },
       "block_order": ["product-card-gallery", "group"]
