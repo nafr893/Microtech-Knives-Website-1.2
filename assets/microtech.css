@@ -127,3 +127,18 @@ div#shopify-section-template--19338473505017__section_y8mUWh {
 }
 
     }
+
+    /* general styles */
+    quantity-selector-component.quantity-selector.cart-primary-typography {
+        button.button.quantity-minus.button-unstyled {
+            color: white; 
+        }
+
+        input {
+            color: white;
+        }
+
+        button.button.quantity-plus.button-unstyled {
+            color: white; 
+        }
+    }
