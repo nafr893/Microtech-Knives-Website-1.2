@@ -1221,28 +1221,12 @@
             "padding-inline-end": 0
           },
           "blocks": {}
-        },
-        "button_BJLwRM": {
-          "type": "button",
-          "name": "t:names.button",
-          "settings": {
-            "label": "Shop Now",
-            "link": "shopify://collections/all",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "fit-content",
-            "custom_width": 100,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
-          },
-          "blocks": {}
         }
       },
       "block_order": [
         "text_eTWyGX",
         "text_x4FhwM",
-        "email_signup_kge6BA",
-        "button_BJLwRM"
+        "email_signup_kge6BA"
       ],
       "name": "t:names.hero",
       "settings": {
