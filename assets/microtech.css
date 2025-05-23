@@ -112,9 +112,11 @@ div.collection-card__content {
  }
 }
 
+/* Knife Quiz Section */
 div#shopify-section-template--19338473505017__section_y8mUWh {
     div.spacing-style.layout-panel-flex.layout-panel-flex--row.section-content-wrapper.mobile-column {
         align-items: center; 
+        padding-bottom: 40px; 
     }
       div.group-block-content.layout-panel-flex.layout-panel-flex--column.mobile-column {
         align-items: center !important; 
