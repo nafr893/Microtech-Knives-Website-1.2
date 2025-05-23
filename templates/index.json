@@ -369,10 +369,10 @@
       "settings": {
         "collection": "otf",
         "layout_type": "grid",
-        "carousel_on_mobile": false,
+        "carousel_on_mobile": true,
         "max_products": 8,
         "columns": 4,
-        "mobile_columns": "2",
+        "mobile_columns": "1",
         "columns_gap": 12,
         "rows_gap": 24,
         "icons_style": "arrow",
