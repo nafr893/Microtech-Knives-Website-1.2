@@ -75,3 +75,10 @@ padding-bottom: 10px;
   div.collection-card__content {
     padding: 1.5rem !important; 
   }
+
+@media (max-width: 480px) {
+div.spacing-style.text-block.text-block--AZUY4djNIVEFtU0hXM__text_iXYWz6 h6.text-block--align-left text-block--full-width 
+  {
+display: none; 
+  }
+}
