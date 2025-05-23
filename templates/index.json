@@ -805,7 +805,7 @@
           "settings": {
             "text": "<p>We offer discounted products to service personnel backed by a limited lifetime warranty.</p>",
             "width": "fit-content",
-            "max_width": "narrow",
+            "max_width": "normal",
             "alignment": "left",
             "type_preset": "h6",
             "font": "var(--font-body--family)",
