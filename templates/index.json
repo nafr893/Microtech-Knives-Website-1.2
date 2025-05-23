@@ -1153,7 +1153,7 @@
           "name": "t:names.email_signup",
           "settings": {
             "width": "custom",
-            "custom_width": 100,
+            "custom_width": 70,
             "inherit_color_scheme": false,
             "color_scheme": "scheme-1",
             "border_style": "all",
