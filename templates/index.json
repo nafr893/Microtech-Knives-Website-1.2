@@ -252,7 +252,7 @@
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
                 "height": "fit",
-                "custom_height": 100,
+                "custom_height": 59,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
                 "background_media": "none",
@@ -335,6 +335,22 @@
                   },
                   "blocks": {}
                 },
+                "button_ngGxML": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "disabled": true,
+                  "settings": {
+                    "label": "Shop now",
+                    "link": "shopify://collections/all",
+                    "open_in_new_tab": false,
+                    "style_class": "button",
+                    "width": "custom",
+                    "custom_width": 100,
+                    "width_mobile": "custom",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                },
                 "swatches_k9YMgz": {
                   "type": "swatches",
                   "name": "t:names.swatches",
@@ -356,12 +372,14 @@
                 "product_title_dMgTDL",
                 "review_xzNXPf",
                 "price_h6P4AF",
+                "button_ngGxML",
                 "swatches_k9YMgz"
               ]
             },
             "button_xXdeDD": {
               "type": "button",
               "name": "t:names.button",
+              "disabled": true,
               "settings": {
                 "label": "VIEW PRODUCT",
                 "link": "{{ closest.product.url }}",
