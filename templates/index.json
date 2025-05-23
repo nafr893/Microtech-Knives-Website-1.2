@@ -298,6 +298,19 @@
                   },
                   "blocks": {}
                 },
+                "review_xzNXPf": {
+                  "type": "review",
+                  "name": "t:names.product_review_stars",
+                  "settings": {
+                    "product": "{{ closest.product }}",
+                    "stars_style": "shaded",
+                    "show_number": true,
+                    "rating_color": "primary",
+                    "type_preset": "paragraph",
+                    "alignment": "left"
+                  },
+                  "blocks": {}
+                },
                 "price_h6P4AF": {
                   "type": "price",
                   "name": "t:names.product_price",
@@ -340,6 +353,7 @@
               },
               "block_order": [
                 "product_title_dMgTDL",
+                "review_xzNXPf",
                 "price_h6P4AF",
                 "swatches_k9YMgz"
               ]
