@@ -203,7 +203,7 @@
           "foreground": "#101010",
           "primary": "#000000cf",
           "primary_hover": "#000000",
-          "border": "#1d368600",
+          "border": "rgba(0,0,0,0)",
           "shadow": "#000000",
           "primary_button_background": "#000000",
           "primary_button_text": "#ffffff",
