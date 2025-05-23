@@ -103,7 +103,7 @@ h3 {
 }
 
 div.collection-card__content {
-    div.spacing-style.text-block {
+    div.text-block {
         font-size: 1.5rem !important; 
     }
 }
