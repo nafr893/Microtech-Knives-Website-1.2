@@ -206,7 +206,7 @@
             "product_card_gap": 8,
             "inherit_color_scheme": true,
             "color_scheme": "",
-            "border": "none",
+            "border": "solid",
             "border_width": 1,
             "border_opacity": 100,
             "border_radius": 0,
@@ -267,7 +267,7 @@
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
                 "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-end": 15,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -280,7 +280,7 @@
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "rte",
+                    "type_preset": "h4",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -338,6 +338,7 @@
                 "swatches_k9YMgz": {
                   "type": "swatches",
                   "name": "t:names.swatches",
+                  "disabled": true,
                   "settings": {
                     "product": "{{ closest.product }}",
                     "product_swatches_alignment": "flex-start",
@@ -357,11 +358,27 @@
                 "price_h6P4AF",
                 "swatches_k9YMgz"
               ]
+            },
+            "button_xXdeDD": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "VIEW PRODUCT",
+                "link": "{{ closest.product.url }}",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "custom",
+                "custom_width": 100,
+                "width_mobile": "custom",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "product_card_gallery_JgqDGj",
-            "group_7VTJcC"
+            "group_7VTJcC",
+            "button_xXdeDD"
           ]
         }
       },
