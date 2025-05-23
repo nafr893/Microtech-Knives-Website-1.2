@@ -814,8 +814,8 @@
             "custom_width_mobile": 100,
             "height": "fit",
             "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-5",
             "background_media": "none",
             "video_position": "cover",
             "background_image_position": "cover",
@@ -882,21 +882,6 @@
             "border_radius": 0
           },
           "blocks": {
-            "button_4wbJXG": {
-              "type": "button",
-              "name": "t:names.button",
-              "settings": {
-                "label": "Shop now",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "button-secondary",
-                "width": "fit-content",
-                "custom_width": 77,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
-            },
             "collection_title_b7PhFA": {
               "type": "collection-title",
               "name": "t:names.collection_title",
@@ -905,7 +890,7 @@
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "rte",
+                "type_preset": "h3",
                 "font": "var(--font-body--family)",
                 "font_size": "",
                 "line_height": "normal",
@@ -920,6 +905,21 @@
                 "padding-block-end": 4,
                 "padding-inline-start": 8,
                 "padding-inline-end": 8
+              },
+              "blocks": {}
+            },
+            "button_4wbJXG": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Shop now",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 77,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
               },
               "blocks": {}
             },
@@ -943,8 +943,8 @@
             }
           },
           "block_order": [
-            "button_4wbJXG",
-            "collection_title_b7PhFA"
+            "collection_title_b7PhFA",
+            "button_4wbJXG"
           ]
         }
       },
