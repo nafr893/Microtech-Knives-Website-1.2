@@ -45,7 +45,7 @@ font-family: 'Klavika Light';
             max-width: 40vw;
 
           }
-        }
+        
 
       
 
@@ -56,7 +56,7 @@ font-family: 'Klavika Light';
         
 
         }
-
+    }
 
         /* search modal */
         button.button-primary.predictive-search__search-button {
