@@ -116,8 +116,11 @@ div#shopify-section-template--19338473505017__section_y8mUWh {
     div.spacing-style.layout-panel-flex.layout-panel-flex--row.section-content-wrapper.mobile-column {
         align-items: center; 
     }
-      
+      div.group-block-content.layout-panel-flex.layout-panel-flex--column.mobile-column {
+        align-items: center !important; 
+      }
     
+
 }
 
     }
