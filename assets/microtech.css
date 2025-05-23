@@ -105,6 +105,7 @@ h3 {
 div.collection-card__content {
  p {
         font-size: 1.4rem !important; 
+        font-weight: 600 !important; 
  }
 }
     }
