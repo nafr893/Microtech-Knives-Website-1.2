@@ -94,7 +94,7 @@
     },
     "email_signup": {
       "label": "Email",
-      "placeholder": "Your Email...",
+      "placeholder": "Enter Your Email",
       "success": "Thanks for subscribing!"
     },
     "filter": "Filter",
