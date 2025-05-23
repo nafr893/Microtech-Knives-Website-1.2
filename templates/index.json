@@ -887,7 +887,7 @@
               "name": "t:names.collection_title",
               "settings": {
                 "collection": "{{ closest.collection }}",
-                "width": "fit-content",
+                "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "h3",
