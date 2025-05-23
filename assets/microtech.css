@@ -42,7 +42,7 @@ font-family: 'Klavika Light';
           /* hero section styles */
 
           /* Desktop Styles */ 
-          
+
     @media (min-width: 480px) {
           div.hero__content-wrapper {
             max-width: 40vw;
@@ -111,4 +111,13 @@ div.collection-card__content {
         font-weight: 600 !important; 
  }
 }
+
+div#shopify-section-template--19338473505017__section_y8mUWh {
+    div.spacing-style.layout-panel-flex.layout-panel-flex--row.section-content-wrapper.mobile-column {
+        align-items: center; 
+    }
+      
+    
+}
+
     }
