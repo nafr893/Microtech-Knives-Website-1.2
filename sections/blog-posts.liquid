@@ -1,0 +1,57 @@
+{% schema %}
+{
+  "name": "Blog Posts",
+  "tag": "section",
+  "class": "section-blog-posts",
+  "settings": [
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "Select Blog"
+    },
+    {
+      "type": "number",
+      "id": "articles_to_show",
+      "label": "Number of articles",
+      "default": 3,
+      "min": 1,
+      "max": 10
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blog Posts",
+      "category": "Blog"
+    }
+  ]
+}
+{% endschema %}
+
+{% assign blog = settings.blog %}
+{% assign limit = settings.articles_to_show | default: 3 %}
+
+{% if blog.articles.size > 0 %}
+  <div class="blog-posts">
+    {% for article in blog.articles limit: limit %}
+      <article class="blog-post">
+        {% if article.image %}
+          <a href="{{ article.url }}">
+            <img src="{{ article.image | image_url: width: 600 }}" alt="{{ article.image.alt | escape }}" class="blog-post-image" loading="lazy">
+          </a>
+        {% endif %}
+
+        <h3 class="blog-post-title">
+          <a href="{{ article.url }}">{{ article.title }}</a>
+        </h3>
+
+        <p class="blog-post-excerpt">
+          {{ article.excerpt | strip_html | truncatewords: 25 }}
+        </p>
+
+        <a href="{{ article.url }}" class="blog-post-read-more">Read more →</a>
+      </article>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No articles found in the selected blog.</p>
+{% endif %}
