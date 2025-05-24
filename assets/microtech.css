@@ -150,12 +150,15 @@ div#shopify-section-template--19338473505017__section_y8mUWh {
         padding-left: 5%; 
         padding-right: 5%; 
         padding-top: 5%; 
-        
+
         
     }
     .product-card {
         .size-style.button {
             place-self: center; 
             margin-bottom: 5%;
+        }
+        p {
+            font-weight: 600 !important; 
         }
     }
