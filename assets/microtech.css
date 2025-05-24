@@ -143,12 +143,14 @@ div#shopify-section-template--19338473505017__section_y8mUWh {
         }
     }
 
+    /* product card styles */
+
     .product-card {
         border: 1px solid #dddddd !important; 
         
     }
     .product-card {
-        a {
+        .button {
             place-self: center; 
         }
     }
