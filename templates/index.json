@@ -379,6 +379,7 @@
             "button_xXdeDD": {
               "type": "button",
               "name": "t:names.button",
+              "disabled": true,
               "settings": {
                 "label": "VIEW PRODUCT",
                 "link": "{{ closest.product.url }}",
