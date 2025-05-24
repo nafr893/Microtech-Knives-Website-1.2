@@ -1481,15 +1481,41 @@
               },
               "blocks": {}
             },
-            "text_fJQxAV": {
+            "text_PAfAPc": {
               "type": "text",
-              "name": "t:names.heading",
+              "name": "t:names.text",
               "settings": {
-                "text": "<h2>New arrivals</h2>",
+                "text": "<p>March 18, 2025</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_fJQxAV": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<h3>Automatic vs. Folder Knives</h3>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -1551,6 +1577,7 @@
           },
           "block_order": [
             "image_KVHzKH",
+            "text_PAfAPc",
             "text_fJQxAV",
             "text_Lfzhg4",
             "button_XGdGGP"
@@ -1617,11 +1644,37 @@
               },
               "blocks": {}
             },
+            "text_FJD98V": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>May 2, 2025</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "text_fQc9WT": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>New arrivals</h2>",
+                "text": "<h3>SHOTSHOW 2025 RECAP</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1687,6 +1740,7 @@
           },
           "block_order": [
             "image_F3eCUq",
+            "text_FJD98V",
             "text_fQc9WT",
             "text_bcVzjr",
             "button_AyTWWT"
@@ -1753,11 +1807,37 @@
               },
               "blocks": {}
             },
+            "text_kQNqV6": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>May 17, 2025</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "text_dyGVJX": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>New arrivals</h2>",
+                "text": "<h3>MICROTECH x BORKA BLADES</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1823,6 +1903,7 @@
           },
           "block_order": [
             "image_EFpyJg",
+            "text_kQNqV6",
             "text_dyGVJX",
             "text_bkV6ah",
             "button_MXqmEz"
