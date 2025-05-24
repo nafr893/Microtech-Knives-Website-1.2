@@ -387,7 +387,7 @@
                 "width": "custom",
                 "custom_width": 100,
                 "width_mobile": "custom",
-                "custom_width_mobile": 90
+                "custom_width_mobile": 100
               },
               "blocks": {}
             }
