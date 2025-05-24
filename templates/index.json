@@ -1463,8 +1463,9 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
+                "image": "shopify://shop_images/The_spotlight_is_on_the_Signature_Series_Hera_Hellhound_Frag._Featuring_a_RAL-8000_Frag-pattern_chassis_and_a_Cerakote-finished_Hellhound_blade_this_EDC_showcases_precision_and_style..webp",
                 "link": "",
-                "image_ratio": "adapt",
+                "image_ratio": "square",
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
@@ -1563,7 +1564,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "Shop now",
+                "label": "READ MORE",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
@@ -1626,8 +1627,9 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
+                "image": "shopify://shop_images/Day_1_of_shotshow_was_a_success_thanks_to_everyone_who_stopped_by_Day_2_is_already_underway_and_if_you_haven_t_visited_yet_come_see_us_at_Booth_10062_on_the_Venetian_s_main_floor._We.webp",
                 "link": "",
-                "image_ratio": "adapt",
+                "image_ratio": "square",
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
@@ -1700,7 +1702,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
+                "text": "<p>See a recap of our debut at Shotshow 2025. This was an amazing opportunity to connect with hundreds of our loyal customers.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1789,8 +1791,9 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
+                "image": "shopify://shop_images/borka_blades_x_microtech.webp",
                 "link": "",
-                "image_ratio": "adapt",
+                "image_ratio": "square",
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
@@ -1863,7 +1866,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
+                "text": "<p>Our collaboration with Sebastijan Berenji of Borka Blades continues to inspire innovation and quality in every piece we create.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
