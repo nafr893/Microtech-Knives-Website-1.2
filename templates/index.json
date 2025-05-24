@@ -385,7 +385,7 @@
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "custom",
-                "custom_width": 90,
+                "custom_width": 95,
                 "width_mobile": "custom",
                 "custom_width_mobile": 90
               },
