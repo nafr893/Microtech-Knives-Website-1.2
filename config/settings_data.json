@@ -86,7 +86,7 @@
           "foreground_heading": "#ffffff",
           "foreground": "#ffffff",
           "primary": "#ffffff",
-          "primary_hover": "#ed1c24",
+          "primary_hover": "#f5f5f5",
           "border": "#0000000f",
           "shadow": "#000000",
           "primary_button_background": "#ed1c24",
