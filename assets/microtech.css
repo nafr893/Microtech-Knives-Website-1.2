@@ -147,3 +147,8 @@ div#shopify-section-template--19338473505017__section_y8mUWh {
         border: 1px solid #dddddd !important; 
         
     }
+    .product-card {
+        a {
+            place-self: center; 
+        }
+    }
