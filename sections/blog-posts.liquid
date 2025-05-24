@@ -30,7 +30,7 @@
 {% assign blog = settings.blog %}
 {% assign limit = settings.articles_to_show | default: 3 %}
 
-{% if blog.articles.size > 0 %}
+{% if blog and blog != blank and blog.articles.size > 0 %}
   <div class="blog-posts">
     {% for article in blog.articles limit: limit %}
       <article class="blog-post">
@@ -52,6 +52,8 @@
       </article>
     {% endfor %}
   </div>
+{% elsif blog == blank %}
+  <p>Please select a blog in the section settings.</p>
 {% else %}
   <p>No articles found in the selected blog.</p>
 {% endif %}
