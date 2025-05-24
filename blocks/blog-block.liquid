@@ -1,12 +1,30 @@
 {{ 'blog-block.css' | asset_url | stylesheet_tag }}
-<div class="blog-block-container">
-    
+
+<div class="blog-carousel swiper-container">
+  <div class="swiper-wrapper">
+    {% for block in section.blocks %}
+      <div class="swiper-slide">
+        {% assign blog = blogs[block.settings.blog] %}
+        <h3>{{ blog.title }}</h3>
+        <p>{{ blog.articles.first.excerpt | strip_html | truncate: 100 }}</p>
+        <a href="{{ blog.articles.first.url }}">Read more</a>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- Optional navigation -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
 </div>
+
 
 {% schema %}
 {
-      "name": "Blog Post",
-      "tag": null,
+ "name": "Featured Blogs",
+  "blocks": [
+    {
+        "type": "Blog",
+        "name": "Blog Post",
       "settings": [
         {
           "type": "blog",
