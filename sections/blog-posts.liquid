@@ -1,34 +1,5 @@
 {{ 'blog-posts.css' | asset_url | stylesheet_tag }}
 
-{% schema %}
-{
-  "name": "Blog Posts",
-  "tag": "section",
-  "class": "section-blog-posts",
-  "settings": [
-    {
-      "type": "blog",
-      "id": "blog",
-      "label": "Select Blog"
-    },
-    {
-      "type": "number",
-      "id": "articles_to_show",
-      "label": "Number of articles",
-      "default": 3,
-      "min": 1,
-      "max": 10
-    }
-  ],
-  "presets": [
-    {
-      "name": "Blog Posts",
-      "category": "Blog"
-    }
-  ]
-}
-{% endschema %}
-
 {% assign blog = settings.blog %}
 {% assign limit = settings.articles_to_show | default: 3 %}
 
@@ -59,3 +30,35 @@
 {% else %}
   <p>No articles found in the selected blog.</p>
 {% endif %}
+
+
+{% schema %}
+{
+  "name": "Blog Posts",
+  "tag": "section",
+  "class": "section-blog-posts",
+  "settings": [
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "Select Blog"
+    },
+    {
+      "type": "number",
+      "id": "articles_to_show",
+      "label": "Number of articles",
+      "default": 3,
+      "min": 1,
+      "max": 10
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blog Posts",
+      "category": "Blog"
+    }
+  ]
+}
+{% endschema %}
+
+
