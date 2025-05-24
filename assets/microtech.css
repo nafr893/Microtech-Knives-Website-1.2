@@ -166,3 +166,10 @@ div#shopify-section-template--19338473505017__section_y8mUWh {
             font-weight: 600 !important; 
         }
     }
+
+    div#shopify-section-template--19338473505017__section_zmxFar {
+        a {
+            text-decoration: underline 2px solid #ED1C24; 
+            text-underline-offset: 2px;
+        }
+    }
