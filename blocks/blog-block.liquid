@@ -1,0 +1,49 @@
+{{ 'blog-block.css' | asset_url | stylesheet_tag }}
+<div class="blog-block-container">
+    
+</div>
+
+{% schema %}
+{
+      "name": "Blog Post",
+      "tag": null,
+      "settings": [
+        {
+          "type": "blog",
+          "id": "blog",
+          "label": "Select Blog"
+        },
+
+        {
+            "type": "image_picker",
+            "id": "blog-image",
+            "label": "Blog Image",
+        },
+        {
+            "type": "text",
+            "id": "date",
+            "label": "Date",
+        },
+        {
+            "type": "text", 
+            "id": "heading",
+            "label": "Heading",
+        },
+        {
+            "type": "text", 
+            "id": "sub-heading",
+            "label": "Sub Heading",
+},
+{
+    "type": "button",
+    "id": "button",
+    "label": "Button",
+    "default": "Read More"
+},
+        
+      ]
+    }
+  ],
+  "presets": [{ "name": "Featured Blog Carousel" }]
+}
+{% endschema %}
