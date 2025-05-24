@@ -142,3 +142,7 @@ div#shopify-section-template--19338473505017__section_y8mUWh {
             color: white; 
         }
     }
+
+    product-card#product-card {
+        border: 1px solid black !important; 
+    }
