@@ -1413,7 +1413,7 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 50,
+        "padding-block-start": 60,
         "padding-block-end": 20
       }
     },
@@ -1486,7 +1486,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>March 18, 2025</p>",
+                "text": "<p>MARCH 18, 2025</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1499,7 +1499,7 @@
                 "wrap": "pretty",
                 "color": "var(--color-foreground)",
                 "background": false,
-                "background_color": "#00000026",
+                "background_color": "#333333",
                 "corner_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
@@ -1650,7 +1650,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>May 2, 2025</p>",
+                "text": "<p>MAY 2, 2025</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1663,7 +1663,7 @@
                 "wrap": "pretty",
                 "color": "var(--color-foreground)",
                 "background": false,
-                "background_color": "#00000026",
+                "background_color": "#333333",
                 "corner_radius": 0,
                 "padding-block-start": 0,
                 "padding-block-end": 0,
@@ -1676,7 +1676,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h3>SHOTSHOW 2025 RECAP</h3>",
+                "text": "<h3>SHOTSHOW 2025 IN REVIEW</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1702,7 +1702,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>See a recap of our debut at Shotshow 2025. This was an amazing opportunity to connect with hundreds of our loyal customers.</p>",
+                "text": "<p>See a recap of our debut at Shotshow 2025. This was an amazing opportunity to connect with hundreds of our loyal customers and fans across the world. </p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1814,7 +1814,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>May 17, 2025</p>",
+                "text": "<p>MAY 17, 2025</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1921,9 +1921,9 @@
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "row",
-        "vertical_on_mobile": true,
+        "vertical_on_mobile": false,
         "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
+        "vertical_alignment": "flex-start",
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
