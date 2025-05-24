@@ -1676,9 +1676,9 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h3>SHOTSHOW 2025 RECAP</h3>",
+                "text": "<h3>SHOTSHOW 2025 IN REVIEW</h3>",
                 "width": "fit-content",
-                "max_width": "narrow",
+                "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
