@@ -1,67 +1,36 @@
 {{ 'blog-block.css' | asset_url | stylesheet_tag }}
 
-<div class="blog-carousel swiper-container">
-  <div class="swiper-wrapper">
-    {% for block in section.blocks %}
-      <div class="swiper-slide">
-        {% assign blog = blogs[block.settings.blog] %}
-        <h3>{{ blog.title }}</h3>
-        <p>{{ blog.articles.first.excerpt | strip_html | truncate: 100 }}</p>
-        <a href="{{ blog.articles.first.url }}">Read more</a>
-      </div>
-    {% endfor %}
-  </div>
-
-  <!-- Optional navigation -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-</div>
 
 
 {% schema %}
 {
  "name": "Featured Blogs",
   "blocks": [
+        {
+          "type": "text",
+},
     {
-        "type": "Blog",
-        "name": "Blog Post",
-      "settings": [
-        {
-          "type": "blog",
-          "id": "blog",
-          "label": "Select Blog"
-        },
-
-        {
-            "type": "image_picker",
-            "id": "blog-image",
-            "label": "Blog Image",
-        },
-        {
-            "type": "text",
-            "id": "date",
-            "label": "Date",
-        },
-        {
-            "type": "text", 
-            "id": "heading",
-            "label": "Heading",
-        },
-        {
-            "type": "text", 
-            "id": "sub-heading",
-            "label": "Sub Heading",
+        "type": "group"
+       
 },
-{
+{ 
     "type": "button",
-    "id": "button",
-    "label": "Button",
-    "default": "Read More"
+
+}
+        ],
+"settings": [
+    {
+"type": "blog", 
+"id": "blog",
+"label": "Select a blog",
+
 },
-        
-      ]
-    }
-  ],
+
+ 
+
+
+],
+
   "presets": [{ "name": "Featured Blog Carousel" }]
 }
 {% endschema %}
