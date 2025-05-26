@@ -146,6 +146,10 @@ div.resource-card__content {
     z-index: 2 !important; 
 }
 
+div.resource-card__media {
+    opacity: 0.3; 
+}
+
     }
 
     /* general styles */
