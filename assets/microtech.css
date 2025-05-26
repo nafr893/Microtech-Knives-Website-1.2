@@ -166,10 +166,10 @@ a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-ac
 }
 
 nav.menu-drawer__navigation { 
-visibility: visible !important;
-opacity: 1 !important; 
-overflow: visible !important; 
-border: 1px solid red !important; 
+visibility: visible ;
+opacity: 1 ; 
+overflow: visible ; 
+
 }
 
     }
