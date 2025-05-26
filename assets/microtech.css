@@ -225,6 +225,9 @@ slideshow-slides {
 slideshow-slide {
     width: 40vh; 
 }
+p {
+    font-size: 24px; 
+}
 }
 
     }
