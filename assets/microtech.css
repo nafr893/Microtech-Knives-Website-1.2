@@ -162,7 +162,7 @@ a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-ac
     display: list-item;
    z-index: auto !important; 
    position: relative !important; 
-   justify-content: space-between;
+   justify-content: space-between !important;
    font-size: 24px; 
    
 }
