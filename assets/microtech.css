@@ -195,7 +195,7 @@ h4.resource-card__title.h5 {
 }}
 
 span.menu-drawer__menu-item-text {
-    font-size: auto; 
+    font-size: auto !important ; 
 }
 
 
