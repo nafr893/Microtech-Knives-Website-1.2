@@ -220,6 +220,12 @@
                   },
                   "blocks": {}
                 },
+                "klaviyo_email_marketing_sms_form_embed_block_Wfa86R": {
+                  "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+                  "settings": {
+                    "formId": "SnK3VZ"
+                  }
+                },
                 "email_signup_eLDHEc": {
                   "type": "email-signup",
                   "name": "t:names.email_signup",
@@ -248,6 +254,7 @@
               "block_order": [
                 "text_3L9Fjq",
                 "text_eC4rXd",
+                "klaviyo_email_marketing_sms_form_embed_block_Wfa86R",
                 "email_signup_eLDHEc"
               ]
             }
