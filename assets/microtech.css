@@ -219,6 +219,9 @@ div.collection-card__inner {
     width: 100%; 
     padding-right: 50px; 
 }
+.slideshow-slides {
+    gap: 50px;
+}
 }
 
     }
