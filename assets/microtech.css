@@ -142,7 +142,7 @@ a.resource-card.resource-card--overlay {
     display: inline-block !important; 
 }
 
-
+/* mobile header animation styles for list items */
 a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-accessories, summary#HeaderDrawer-explore  {
     animation: none !important;
 }
