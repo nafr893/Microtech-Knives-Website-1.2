@@ -164,6 +164,7 @@ a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-ac
    position: relative !important; 
    justify-content: space-between !important;
    font-size: 24px; 
+   border-top: 1px solid gray;
    
 }
 
