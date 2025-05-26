@@ -185,7 +185,7 @@ h4.resource-card__title.h5 {
     font-weight: 600; 
     text-decoration: underline 8px solid #ED1C24 !important;
     text-underline-offset: 4px;
-    overflow: visible; 
+    overflow: visible !important; 
 }}
 
     }
