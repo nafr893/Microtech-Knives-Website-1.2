@@ -145,7 +145,7 @@ a.resource-card.resource-card--overlay {
 /* mobile header animation styles for list items */
 
 div.menu-drawer__featured-content {
-    height: 1px !important; 
+    height: auto !important; 
     display: inline !important; 
     position: relative; 
     z-index: -1;
