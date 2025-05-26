@@ -147,7 +147,7 @@ div.resource-card__content {
 }
 
 li.menu-drawer__list-item {
-    animation: none;
+    animation: none !important;
 }
     }
 
