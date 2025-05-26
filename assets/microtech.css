@@ -141,6 +141,11 @@ div#shopify-section-template--19338473505017__section_y8mUWh {
 a.resource-card.resource-card--overlay {
     display: inline; 
 }
+
+div.resource-card__content {
+    z-index: 1; 
+}
+
     }
 
     /* general styles */
