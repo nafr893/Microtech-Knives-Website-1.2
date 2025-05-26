@@ -142,11 +142,8 @@ a.resource-card.resource-card--overlay {
     display: inline-block !important; 
 }
 
-div.resource-card__content {
-    z-index: 2 !important; 
-}
 
-li.menu-drawer__list-item {
+a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-accessories, summary#HeaderDrawer-explore  {
     animation: none !important;
 }
     }
