@@ -172,6 +172,13 @@ overflow: visible ;
 
 }
 
+div.resource-card__content {
+    height: fill-available;
+    justify-content: center; 
+    align-items: center; 
+
+}
+
     }
 
     /* general styles */
