@@ -159,7 +159,7 @@ div.menu-drawer__utility-links.menu-drawer__animated-element {
 
 a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-accessories, summary#HeaderDrawer-explore  {
     animation: none !important;
-    display: list-item;
+    display: flex;
    z-index: auto !important; 
    position: relative !important; 
    justify-content: space-between !important;
