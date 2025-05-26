@@ -178,7 +178,7 @@ div.resource-card__content {
     align-items: center; 
     place-self: center; 
     overflow: visible !important;
-    text-decoration: underline !important;
+   
        
 }
 div.resource-card__content {
@@ -186,7 +186,7 @@ h4.resource-card__title.h5 {
     font-size: 24px; 
     font-weight: 600; 
     text-decoration: underline  !important;
-    text-underline-offset: 4px;
+    text-underline-offset: 5px;
     text-decoration-color: #ED1C24;
     text-decoration-thickness: 3px;
     overflow: visible !important; 
