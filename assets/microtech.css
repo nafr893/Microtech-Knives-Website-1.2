@@ -172,7 +172,7 @@ li.menu-drawer__list-item {
     border-top: 0.5px solid #D9D9D9 !important; 
 }
 
-summary#HeaderDrawer-explore, a#HeaderDrawer-explore-intel, a#HeaderDrawer-apparel-accessories-sweaters, summary#HeaderDrawer-knives-fixed-blades {
+summary#HeaderDrawer-explore, a#HeaderDrawer-explore-intel, summary#HeaderDrawer-apparel-accessories-sweaters, summary#HeaderDrawer-knives-fixed-blades {
     border-bottom: 0.5px solid #D9D9D9 !important;
     overflow: visible !important; 
 }
