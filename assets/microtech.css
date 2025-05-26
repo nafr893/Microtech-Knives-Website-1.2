@@ -163,6 +163,7 @@ a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-ac
    z-index: auto !important; 
    position: relative !important; 
    justify-content: space-between;
+   font-size: 24px; 
    
 }
 
@@ -194,7 +195,7 @@ h4.resource-card__title.h5 {
 }}
 
 span.menu-drawer__menu-item-text {
-    font-size: 24px; 
+    font-size: auto; 
 }
 
 
