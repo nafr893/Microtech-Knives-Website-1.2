@@ -146,7 +146,8 @@ a.resource-card.resource-card--overlay {
 
 div.menu-drawer__featured-content {
     height: fit-content !important; 
-    
+    display: none !important; 
+
 }
 
 a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-accessories, summary#HeaderDrawer-explore  {
