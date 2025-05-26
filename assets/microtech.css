@@ -169,6 +169,10 @@ a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-ac
 }
 
 
+summary#HeaderDrawer-explore, a#HeaderDrawer-explore-intel  {
+    border-bottom: 0px solid #D9D9D9 !important;
+    overflow: visible !important; 
+}
 
 nav.menu-drawer__navigation { 
 visibility: visible ;
