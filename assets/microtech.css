@@ -169,7 +169,7 @@ a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-ac
 }
 
 li.menu-drawer__list-item {
-    border-top: 1px solid #D9D9D9; 
+    border-top: 1px solid #D9D9D9 !important; 
 }
 
 nav.menu-drawer__navigation { 
