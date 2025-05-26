@@ -177,6 +177,10 @@ div.resource-card__content {
     justify-content: center; 
     align-items: center; 
     place-self: center; 
+       font-size: 24px; 
+    font-weight: 600; 
+    text-decoration: underline 8px solid #ED1C24 !important;
+    text-underline-offset: 4px;
 }
 
 h4.resource-card__title.h5 {
