@@ -99,6 +99,8 @@ display: none;
   }
    
 
+  
+
    div.hero__content-wrapper.layout-panel-flex.layout-panel-flex--column.mobile-column.section-content-wrapper.page-width
         
       {
@@ -135,6 +137,10 @@ div#shopify-section-template--19338473505017__section_y8mUWh {
     
 
 }
+
+div.menu-drawer__featured-content {
+    display: none;     
+    }
 
     }
 
@@ -176,6 +182,11 @@ div#shopify-section-template--19338473505017__section_y8mUWh {
             font-weight: 600 !important; 
         }
     }
+
+   
+
+
+
 
     /* blog section styles */ 
     div#shopify-section-template--19338473505017__section_zmxFar {
