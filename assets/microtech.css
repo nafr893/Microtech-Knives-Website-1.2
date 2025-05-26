@@ -179,14 +179,14 @@ div.resource-card__content {
     place-self: center; 
        
 }
-
+div.resource-card__content {
 h4.resource-card__title.h5 {
     font-size: 24px; 
     font-weight: 600; 
     text-decoration: underline 8px solid #ED1C24 !important;
     text-underline-offset: 4px;
     overflow: visible; 
-}
+}}
 
     }
 
