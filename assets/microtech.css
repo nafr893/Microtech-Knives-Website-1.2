@@ -138,11 +138,8 @@ div#shopify-section-template--19338473505017__section_y8mUWh {
 
 }
 
-div.menu-drawer__featured-content
-{
-    display: flex;
-    max-width: 100%;     
-    
+a.resource-card.resource-card--overlay {
+    display: none; 
 }
     }
 
