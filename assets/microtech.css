@@ -173,7 +173,7 @@ overflow: visible ;
 }
 /* nav image card styles */ 
 div.resource-card__content {
-    height: -webkit-fill-available;
+    height: fill-available ;
     justify-content: center; 
     align-items: center; 
     place-self: center; 
