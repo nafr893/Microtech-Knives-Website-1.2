@@ -171,12 +171,12 @@ opacity: 1 ;
 overflow: visible ; 
 
 }
-
+/* nav image card styles */ 
 div.resource-card__content {
     height: fill-available;
     justify-content: center; 
     align-items: center; 
-
+    place-self: center; 
 }
 
     }
