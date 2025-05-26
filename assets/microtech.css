@@ -145,8 +145,8 @@ a.resource-card.resource-card--overlay {
 /* mobile header animation styles for list items */
 a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-accessories, summary#HeaderDrawer-explore  {
     animation: none !important;
-    display: flex;
-   z-index: 1 !important; 
+    display: list-item;
+   z-index: auto !important; 
 }
     }
 
