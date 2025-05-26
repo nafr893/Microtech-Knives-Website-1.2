@@ -214,6 +214,10 @@ div#shopify-section-template--19338473505017__collection_list_aJJW7j {
         height: 60vh ; 
         width: 40vh; 
 }
+div.collection-card__inner {
+    height: 40vh; 
+    width: 100%; 
+}
 }
 
     }
