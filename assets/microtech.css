@@ -146,7 +146,7 @@ a.resource-card.resource-card--overlay {
 a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-accessories, summary#HeaderDrawer-explore  {
     animation: none !important;
     display: flex;
-    z-index: 3 !important;  
+   
 }
     }
 
