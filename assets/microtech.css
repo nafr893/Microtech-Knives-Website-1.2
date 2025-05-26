@@ -145,13 +145,16 @@ a.resource-card.resource-card--overlay {
 /* mobile header animation styles for list items */
 
 div.menu-drawer__featured-content {
-    height: fill !important; 
+    height: ll !important; 
     display: inline !important; 
     position: relative; 
     padding-top: 10px;
-    margin-top: 10px; 
+    margin-top: 10px;
 
+}
 
+div.menu-drawer__utility-links.menu-drawer__animated-element {
+    display: none; 
 }
 
 a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-accessories, summary#HeaderDrawer-explore  {
