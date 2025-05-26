@@ -146,10 +146,9 @@ div.resource-card__content {
     z-index: 2 !important; 
 }
 
-div.resource-card__media {
-    opacity: 1;  
+li.menu-drawer__list-item {
+    animation: none;
 }
-
     }
 
     /* general styles */
