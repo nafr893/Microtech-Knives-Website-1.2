@@ -164,6 +164,14 @@ a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-ac
    position: relative !important; 
    
 }
+
+nav.menu-drawer__navigation { 
+visibility: visible !important;
+opacity: 1 !important; 
+overflow: visible !important; 
+border: 1px solid red !important; 
+}
+
     }
 
     /* general styles */
