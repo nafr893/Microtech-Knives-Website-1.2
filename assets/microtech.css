@@ -226,7 +226,7 @@ slideshow-slide {
     width: 40vh; 
 }
 p {
-    font-size: 24px; 
+    font-size: 32px !important; 
 }
 }
 
