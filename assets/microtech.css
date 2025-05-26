@@ -161,6 +161,7 @@ a#HeaderDrawer-new, summary#HeaderDrawer-knives, summary#HeaderDrawer-apparel-ac
     animation: none !important;
     display: list-item;
    z-index: auto !important; 
+   position: relative !important; 
    
 }
     }
