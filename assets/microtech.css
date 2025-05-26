@@ -142,8 +142,13 @@ a.resource-card.resource-card--overlay {
     display: inline-block !important; 
 }
 
+div.resource-card__content {
+    z-index: 2 !important; 
+}
 
-
+div.resource-card__media {
+    opacity: 1;  
+}
 
     }
 
